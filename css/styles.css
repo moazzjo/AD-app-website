@@ -1,0 +1,246 @@
+/**************************TAG SELECTROR***************************************/
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat';
+  font-size: 3.5rem;
+}
+
+/**************************Classes SELECTROR***********************************/
+
+/* heading */
+
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* continers */
+
+.continer-fluid{
+  padding: 8% 7%;
+}
+
+
+/* section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #FFF;
+
+}
+
+.white-section{
+  background-color: #fff;
+
+
+}
+/* Title */
+
+#title .continer-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+
+}
+
+.title-image{
+  width: 60%;
+ transform:  rotate(15deg) ; /* Equal to rotateZ(45deg) */
+ position: absolute;
+ right: 30%;
+}
+
+
+
+
+
+
+/* Navigation */
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 800;
+  }
+
+
+
+.navbar{
+  padding: 0 0 4.5rem ;
+
+}
+.nav-item{
+  padding: 0 18px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+.Download-Botton{
+  margin: 6% 3% 5% 0;
+}
+
+
+/* circle */
+.circle{
+  text-align: center;
+
+
+}
+.md-icon:hover {
+    color: #ff4c68;
+
+
+}
+.md-icon{
+  margin: 3% 0 5%;
+  color: #ef8172;
+
+}
+
+/* features */
+
+.features-text{
+font-size: 1.5rem;
+line-height: 1.5;
+
+
+}
+.features-p{
+  color: #8f8f8f;
+  padding: 0 15%;
+
+}
+ /* Testimonials */
+
+ .testimonial-text{
+   font-size: 3rem;
+   line-height: 1.5;
+
+ }
+
+ .testimonials-image{
+   width: 10%;
+   border-radius: 100%;
+   margin: 3%;
+
+ }
+
+
+
+ /* Press */
+
+ .press-image{
+   width: 15%;
+   margin: 20px 20px 15px;
+ }
+
+ /* pricing */
+.pricing-heading{
+  font-size: 2rem;
+}
+
+ .card-colmn{
+   padding: 10% 1% 3% 1%;
+ }
+
+.pricing-p{
+  line-height: 2;
+
+}
+
+.pricing-p3{
+  line-height: 1.25;
+}
+
+
+
+
+
+/* Call to Action */
+.cta-btn{
+  margin: 2% 1%;
+}
+
+
+/* Footer */
+
+.fo-ico{
+  color: black;
+  margin: 0.5%;
+  text-decoration: none;
+  margin-bottom: 1%;
+}
+.end-p{
+  font-size: 0.8rem;
+}
+
+
+/* media */
+
+@media  (max-width: 1028px)  {
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+
+
+  }
+
+  #title{
+    text-align: center;
+
+
+  }
+
+
+  h1{
+    font-size: 2.5rem;
+    line-height: 1.5;
+
+
+  }
+
+}
+
+
+
+
+/**************************ID SELECTROR***********************************/
+
+
+
+#features{
+  position: relative;
+  z-index: auto;
+
+}
+
+#testimonials{
+  background-color: #ef8172;
+
+}
+
+#press{
+  background-color: #ef8172;
+  padding-bottom:4%;
+}
+
+
+
+#footer{
+  color: gray;
+}
